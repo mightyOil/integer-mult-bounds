@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "base_commit": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "files": [
+    {
+      "path": "certificates/selected-result.json",
+      "usage": "provenance",
+      "git_blob": "ae6a99f28aa468649eb66a361e764d769363bf11",
+      "sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32"
+    },
+    {
+      "path": "docs/research/agent-task-catalog.json",
+      "usage": "provenance",
+      "git_blob": "06c96f5579bb67ed1b86d334e78fbed7da6945f1",
+      "sha256": "6686ad58f1fbdbc87134a78901b60fd53a20d3984355e91defbbebc9e9fa8075"
+    },
+    {
+      "path": "research/community-reconciliation-fourth100-audit/regenerated/pr455-outputs/serialization/complex/AUDIT.json.gz",
+      "usage": "input",
+      "git_blob": "27ff1858ee5b25e6b56caadae2eaf318db888fc0",
+      "sha256": "ae36acc865bacdcdd8a2a16888475f00fb3922219ba65e5b1fc93eefd5fa4852"
+    },
+    {
+      "path": "research/community-reconciliation-fourth100-audit/regenerated/pr455-outputs/whole-complex.log.gz",
+      "usage": "input",
+      "git_blob": "85764a0d2eb2f267cd72d224617200317c7d5bb7",
+      "sha256": "6c5ae7ae5b8b263a1268d3c0ca25b67d037e356e2dd5292d8308cbe3b59c5a9f"
+    },
+    {
+      "path": "research/gzip-container-reproducibility/README.md",
+      "usage": "input",
+      "git_blob": "a94819c39e1021c584dd97edfed80c69222640e2",
+      "sha256": "a697f9804858a3a4dbcdfbe55b1397c5ed5a40e3dcd0e87ee696c49b1ff343ec"
+    }
+  ],
+  "archival_inputs": {
+    "head": "f76fc4e36030d4e00b4cbb83b1dbc661a0974c4e",
+    "prefix": "research/e8-whole-pool-portfolio/",
+    "files": [
+      {
+        "path": "EXPECTED.json",
+        "git_blob": "082ac6e83f15f992bcb1ae4a15519d776a45046a",
+        "sha256": "4ca482644b06956a7bc3d232974e3bd4ce86ead00be006038fdd3c5687a6addd"
+      },
+      {
+        "path": "PROVENANCE.md",
+        "git_blob": "1e87a00de2507c55639070602b5c712f4f96a495",
+        "sha256": "7b907f7535cd8e0a442fa227f10378816b9106a2868016c2dded8eb545f5a71d"
+      },
+      {
+        "path": "VALIDATION.json",
+        "git_blob": "a71189c289215cd63480c838d749b5b5cbcd81f6",
+        "sha256": "b3a26160f30f8d8badbcd15b5951b77455be1ba989871ac62d3d33df3af80c90"
+      },
+      {
+        "path": "MANIFEST.json",
+        "git_blob": "218de28cd7805c6587859aafb5260cd0778f6305",
+        "sha256": "d55f52a8ed11f41d394cd4e41c460d2f5d5ef8d5c52a2accbfe8196e6a2be6de"
+      },
+      {
+        "path": "code/complex_whole_emit.py",
+        "git_blob": "c6b7600c4fbfade4b814b6c59d34e0f5054afe5e",
+        "sha256": "bb2cfed2acb8f695923693c597c922f04be977c3a6a340f95c6f75a5a1cd1282"
+      },
+      {
+        "path": "code/complex_whole_audit.py",
+        "git_blob": "4b0d23b1b52cd8d5e0f08667a19dcc05f9aed2a2",
+        "sha256": "1cccf69245c943069925e42b48d1658e05cbfa38d5b5556e6526e958f294aae5"
+      },
+      {
+        "path": "code/hosting_core_bounded.py",
+        "git_blob": "52977b77a22de15324feb57943d4b1defc2f92bb",
+        "sha256": "ea7f922f60f5954e5d939dafb57f4f1d2dd0a422873c030bc39fcb62f487427f"
+      },
+      {
+        "path": "vendor/complex/complex_emit.py",
+        "git_blob": "e5fe7b34892e5a1ddbae48b39644f85f25d48a71",
+        "sha256": "f56d5f01f7c121741f175814138dca7190d769920f0a27e2d5b99c21aebed0f1"
+      },
+      {
+        "path": "vendor/complex/complex_phases.py",
+        "git_blob": "19b6b113e053f7b2892ab805a97b6b7d69ae6ea7",
+        "sha256": "4339fde687c041c381d01bc81e90a2abec0092c51920eb02166aaf628a7f25a2"
+      },
+      {
+        "path": "vendor/complex/clifford_exact.py",
+        "git_blob": "166841a037f069249f6f7f6dedb89248812f59e2",
+        "sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962"
+      },
+      {
+        "path": "inputs/complex-selection.json",
+        "git_blob": "02aa7107badc8fe88e12acbfc772b1612a2b445a",
+        "sha256": "e5b7547251f713a99afd4e48a0397a8d48bc50f3cfcad3b37e94382ff3ccdf87"
+      },
+      {
+        "path": "inputs/complex/CANONICAL-WORD.json.gz",
+        "git_blob": "9d1fdebecdff3a8940e2d9594e3e1b23ec9bdb03",
+        "sha256": "c0f164b0ee8da6e93a53603863dcafcd0c6956647b9349d31249bd594df885c6"
+      },
+      {
+        "path": "inputs/complex/LOCAL-CHECKS.json",
+        "git_blob": "605b362fe3d30b685da0db6c9a94b0b12386df21",
+        "sha256": "58e417dfc63f6f04c13b3754c60f4596bef0291e502e48bc7fe5e580d84c5859"
+      },
+      {
+        "path": "inputs/complex/SCALAR-FRAME-AUDIT.json",
+        "git_blob": "47d6c589aaced1dde126c59f81f878d1181c6958",
+        "sha256": "dfa5cfe913ca999144940516703939746d8362233c758ea2a92ee512429aee4b"
+      },
+      {
+        "path": "inputs/complex/CLIFFORD-RECIPES.json",
+        "git_blob": "e466f7d947b984b106d29cbfe37f9cc3fcad24a1",
+        "sha256": "242fe77af077973e1933524fe5c7ff3b68bef14b1f6938e024827de78d954492"
+      },
+      {
+        "path": "inputs/complex/CLIFFORD-REVIEW.json",
+        "git_blob": "25e9eea81943a6b4392e9cd5328e3a2f822bb258",
+        "sha256": "5130020e063ec95ffb8662a01229619f7b928d1d720a97b4e5d7665b7dc6ee8d"
+      },
+      {
+        "path": "notices/PR433-NOTICE.md",
+        "git_blob": "e9c197bd160fc83a38aab5d0699bec587a97b933",
+        "sha256": "c31e1d2fd38917d0e2bb64e77058edc2807f9f8d5fd4d932d92d19a1e4260451"
+      },
+      {
+        "path": "notices/PR451-NOTICE.md",
+        "git_blob": "bfb98ab7a1747aaa86cb89ef9321746800fe130c",
+        "sha256": "2a8fab92450dda396139d23c3d641e378b17c4a472b7c8c684caf58ccc2759b2"
+      },
+      {
+        "path": "notices/PR453-NOTICE.md",
+        "git_blob": "4fa73d0b0ecd8020f696007c231e1f7944575312",
+        "sha256": "326bd77813cf99861c26b02d138ba8d4a457aca4fd0d292c68c5ccd35e181244"
+      },
+      {
+        "path": "notices/PR433-LICENSE",
+        "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      },
+      {
+        "path": "notices/PR451-LICENSE",
+        "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      },
+      {
+        "path": "notices/PR453-LICENSE",
+        "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    ],
+    "archive": "pr455-sources.tar.gz",
+    "archive_sha256": "a8f1f9c927ca7334e9de82a88c2ad6925c50cf56428341eb438ae0e7bbf83e58"
+  }
+}

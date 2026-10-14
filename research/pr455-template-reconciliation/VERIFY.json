@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/community-reconciliation-fourth100-audit/regenerated/pr455-outputs/serialization/complex/AUDIT.json.gz",
+    "research/community-reconciliation-fourth100-audit/regenerated/pr455-outputs/whole-complex.log.gz",
+    "research/gzip-container-reproducibility/README.md"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 240,
+      "checks": "Four unchanged archived source commands with assertions enabled, original author expected template, complete payload normalization, ten inherited routing mutants and ten new source/serialization/payload controls."
+    }
+  ]
+}

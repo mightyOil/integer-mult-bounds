@@ -1,0 +1,67 @@
+{
+  "status": "PASS_PR455_TEMPLATE_RECONCILIATION",
+  "archived_files": 22,
+  "unchanged_source_commands": [
+    "local-programs",
+    "data-phases",
+    "whole-complex",
+    "independent-routing"
+  ],
+  "original_template_sha256": "02d4d0031a173664f8adc5bccf0244f8ce349307eac09c0d48a3c8948a7f5b17",
+  "payload_template_sha256": "0b9538eb416a7bf0360d9d3f8f8b25224269200884536f2ae085af2234288e26",
+  "serializer_combinations": {
+    "review": "62d1e17fe80b82691e7cef2b03974a826b513da6af5689eb4c0aac1b38355971",
+    "header_only": "14b41f8e8d384856e7dc090bc66cae8a293510b4453ec13351d7e885ae2a3f98",
+    "newline_only": "82cd103272fbdc2475408a11827b4cea354aee08dd2fc4c139392163f8c6c10d",
+    "both": "02d4d0031a173664f8adc5bccf0244f8ce349307eac09c0d48a3c8948a7f5b17"
+  },
+  "fresh_local_columns_per_orientation": 800,
+  "local_events_per_orientation": 24857,
+  "phase_polynomial_evaluations": 40960,
+  "calls": 88,
+  "whole_residuals": 49280,
+  "occupied_axis_cells": 443520,
+  "profile": {
+    "1": 170358,
+    "2": 68992,
+    "3": 18624,
+    "4": 19712,
+    "5": 38336,
+    "7": 3840,
+    "8": 9792,
+    "55": 6,
+    "64": 1732
+  },
+  "rank_mass": 851136,
+  "inherited_mutations_rejected": [
+    "active data alias",
+    "corrupted literal program",
+    "duplicate helper slot",
+    "forged idle remainder",
+    "missing cover correction",
+    "omitted idle child",
+    "omitted owner",
+    "outside child",
+    "split helper rank",
+    "wrong stage"
+  ],
+  "new_controls_rejected": [
+    "omitted fresh local instruction",
+    "changed fixture bytes",
+    "changed phase translation",
+    "changed owner",
+    "omitted literal instruction",
+    "omitted final correction",
+    "changed paid idle rank",
+    "forged generated-file binding",
+    "source byte change",
+    "wrong source object"
+  ],
+  "historical_audit_changed_top_level_keys": [
+    "template_sha256",
+    "source_bindings"
+  ],
+  "historical_audit_changed_binding_keys": [
+    "phase_sha256"
+  ]
+}
